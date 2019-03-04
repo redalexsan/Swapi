@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:defaultValue="@string/main_latin_ipsum"
+        android:dialogTitle="@string/prefTypeDialogTitle"
+        android:entries="@array/prefLoremType_entries"
+        android:entryValues="@array/prefLoremType_values"
+        android:icon="@drawable/ic_wrap_text_black_24dp"
+        android:key="@string/prefLoremType_key"
+        android:title="@string/prefLoremTitle"
+
+        />
+</PreferenceScreen>
